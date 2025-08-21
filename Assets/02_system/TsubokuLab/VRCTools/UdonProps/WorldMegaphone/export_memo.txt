@@ -1,0 +1,7 @@
+\Assets\TsubokuLab\VRCTools\UdonProps\CommonAssets\Fonts
+\Assets\TsubokuLab\VRCTools\UdonProps\CommonAssets\Materials\Particles
+\Assets\TsubokuLab\VRCTools\UdonProps\CommonAssets\Models
+\Assets\TsubokuLab\VRCTools\UdonProps\CommonAssets\Prefabs
+\Assets\TsubokuLab\VRCTools\UdonProps\CommonAssets\Textures\GUI
+\Assets\TsubokuLab\VRCTools\UdonProps\CommonAssets\Textures\Particles
+\Assets\TsubokuLab\VRCTools\UdonProps\WorldMegaphone
