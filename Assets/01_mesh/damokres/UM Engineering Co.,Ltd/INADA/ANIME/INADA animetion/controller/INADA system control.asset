@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: INADA system control
+  m_EditorClassIdentifier: 
+  controls:
+  - name: system on/off
+    icon: {fileID: 2800000, guid: 91d35d74736f18a43bca59724274a730, type: 3}
+    type: 102
+    parameter:
+      name: system on/off
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: camera on/off
+    icon: {fileID: 2800000, guid: 8beb1080003b5aa4a952a6b0653d3acf, type: 3}
+    type: 102
+    parameter:
+      name: camera on/off
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: chair on/off
+    icon: {fileID: 2800000, guid: 808a4d918e98c424b9db509f00e02ae7, type: 3}
+    type: 102
+    parameter:
+      name: chair on/off
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: flight on/off
+    icon: {fileID: 2800000, guid: f48f124c286012b4eb2804996adaa48a, type: 3}
+    type: 102
+    parameter:
+      name: booster on/off
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: aim(desktop)
+    icon: {fileID: 2800000, guid: 745b7a67a15db554e80c58fafa8274da, type: 3}
+    type: 102
+    parameter:
+      name: aim mode
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: cockpit open/close
+    icon: {fileID: 2800000, guid: 2845cc2a0790cc04ba388b0d347e31c5, type: 3}
+    type: 102
+    parameter:
+      name: cockpit open/close
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: cast on/off
+    icon: {fileID: 2800000, guid: 4c535759a3a9cc54988d9c18a91e8f87, type: 3}
+    type: 102
+    parameter:
+      name: cast on/off
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Limiter cut
+    icon: {fileID: 2800000, guid: d15de2bc77cd0b641b006c21d183a9e9, type: 3}
+    type: 102
+    parameter:
+      name: Limiter cut
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
