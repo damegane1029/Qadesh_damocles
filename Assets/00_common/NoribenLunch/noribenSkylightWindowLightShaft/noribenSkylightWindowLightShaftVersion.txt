@@ -1,0 +1,10 @@
+天窓ライトシャフトシェーダー / Skylight Window LightShaft Shader
+
+https://noriben.booth.pm/items/5433774
+
+2024/01/19 V001 初期
+2024/01/20 V002 角丸、三角、角丸三角、星、ハートの形を追加
+2024/01/31 V003 窓部分の色づき具合を変更できるようにした。カメラ距離でのフェードを入れた。
+
+noriben
+https://twitter.com/noriben327
