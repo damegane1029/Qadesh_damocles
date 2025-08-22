@@ -1,0 +1,553 @@
+fileFormatVersion: 2
+guid: 9b6ec976c1fa7d04a88893b44a8f78ea
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: backPort
+    100002: backPort1
+    100004: backPort2
+    100006: backPort3
+    100008: backPorts
+    100010: baseWhole
+    100012: bottomBase
+    100014: bottomLogo
+    100016: celingMountBase
+    100018: celingMountBaseBase
+    100020: celingMountBaseSupport
+    100022: celingMountTube
+    100024: celingMountWhole
+    100026: lens
+    100028: lens 1
+    100030: lensBase
+    100032: lensBase1
+    100034: lensFrame
+    100036: lensFrameDetail
+    100038: mainBase
+    100040: //RootNode
+    100042: sideVentDetail
+    100044: sideVentsBackL
+    100046: sideVentsBackR
+    100048: sideVentsBackTop
+    100050: sideVentsFrontL
+    100052: sideVentsFrontR
+    100054: sideVentsL
+    100056: sideVentsR
+    100058: topBase
+    100060: ventLback
+    100062: ventLback 1
+    100064: ventLback 2
+    100066: ventLback 3
+    100068: ventLback 4
+    100070: ventLback 5
+    100072: ventLback 6
+    100074: ventSideL
+    100076: ventSideL 1
+    100078: ventSideL 2
+    100080: ventSideL 3
+    100082: ventSideL 4
+    100084: ventSideL 5
+    100086: ventSideL 6
+    100088: ventSideL1
+    100090: ventSideL1 1
+    100092: ventSideL1 2
+    100094: ventSideL1 3
+    100096: ventSideL1 4
+    100098: ventSideL1 5
+    100100: ventSideL1 6
+    100102: ventSideL2
+    100104: ventSideL2 1
+    100106: ventSideL2 2
+    100108: ventSideL2 3
+    100110: ventSideL2 4
+    100112: ventSideL2 5
+    100114: ventSideL2 6
+    100116: ventSideL3
+    100118: ventSideL3 1
+    100120: ventSideL3 2
+    100122: ventSideL3 3
+    100124: ventSideL3 4
+    100126: ventSideL3 5
+    100128: ventSideL3 6
+    100130: ventSideL4
+    100132: ventSideL4 1
+    100134: ventSideL4 2
+    100136: ventSideL4 3
+    100138: ventSideL4 4
+    100140: ventSideL4 5
+    100142: ventSideL4 6
+    100144: ventSideL5
+    100146: ventSideL5 1
+    100148: ventSideL5 2
+    100150: ventSideL5 3
+    100152: ventSideL5 4
+    100154: ventSideL5 5
+    100156: ventSideL5 6
+    100158: ventSideL6
+    100160: ventSideL6 1
+    100162: ventSideL6 2
+    100164: ventSideL6 3
+    100166: ventSideL6 4
+    100168: ventSideL6 5
+    100170: ventSideL6 6
+    100172: ventSideL7
+    100174: ventSideL7 1
+    100176: ventSideL7 2
+    100178: ventSideL7 3
+    100180: ventSideL7 4
+    100182: ventSideL7 5
+    100184: ventSideL7 6
+    100186: ventSideL8
+    100188: ventSideL8 1
+    100190: ventSideL8 2
+    100192: ventSideL8 3
+    100194: ventSideL8 4
+    100196: ventSideL8 5
+    100198: ventSideL8 6
+    400000: backPort
+    400002: backPort1
+    400004: backPort2
+    400006: backPort3
+    400008: backPorts
+    400010: baseWhole
+    400012: bottomBase
+    400014: bottomLogo
+    400016: celingMountBase
+    400018: celingMountBaseBase
+    400020: celingMountBaseSupport
+    400022: celingMountTube
+    400024: celingMountWhole
+    400026: lens
+    400028: lens 1
+    400030: lensBase
+    400032: lensBase1
+    400034: lensFrame
+    400036: lensFrameDetail
+    400038: mainBase
+    400040: //RootNode
+    400042: sideVentDetail
+    400044: sideVentsBackL
+    400046: sideVentsBackR
+    400048: sideVentsBackTop
+    400050: sideVentsFrontL
+    400052: sideVentsFrontR
+    400054: sideVentsL
+    400056: sideVentsR
+    400058: topBase
+    400060: ventLback
+    400062: ventLback 1
+    400064: ventLback 2
+    400066: ventLback 3
+    400068: ventLback 4
+    400070: ventLback 5
+    400072: ventLback 6
+    400074: ventSideL
+    400076: ventSideL 1
+    400078: ventSideL 2
+    400080: ventSideL 3
+    400082: ventSideL 4
+    400084: ventSideL 5
+    400086: ventSideL 6
+    400088: ventSideL1
+    400090: ventSideL1 1
+    400092: ventSideL1 2
+    400094: ventSideL1 3
+    400096: ventSideL1 4
+    400098: ventSideL1 5
+    400100: ventSideL1 6
+    400102: ventSideL2
+    400104: ventSideL2 1
+    400106: ventSideL2 2
+    400108: ventSideL2 3
+    400110: ventSideL2 4
+    400112: ventSideL2 5
+    400114: ventSideL2 6
+    400116: ventSideL3
+    400118: ventSideL3 1
+    400120: ventSideL3 2
+    400122: ventSideL3 3
+    400124: ventSideL3 4
+    400126: ventSideL3 5
+    400128: ventSideL3 6
+    400130: ventSideL4
+    400132: ventSideL4 1
+    400134: ventSideL4 2
+    400136: ventSideL4 3
+    400138: ventSideL4 4
+    400140: ventSideL4 5
+    400142: ventSideL4 6
+    400144: ventSideL5
+    400146: ventSideL5 1
+    400148: ventSideL5 2
+    400150: ventSideL5 3
+    400152: ventSideL5 4
+    400154: ventSideL5 5
+    400156: ventSideL5 6
+    400158: ventSideL6
+    400160: ventSideL6 1
+    400162: ventSideL6 2
+    400164: ventSideL6 3
+    400166: ventSideL6 4
+    400168: ventSideL6 5
+    400170: ventSideL6 6
+    400172: ventSideL7
+    400174: ventSideL7 1
+    400176: ventSideL7 2
+    400178: ventSideL7 3
+    400180: ventSideL7 4
+    400182: ventSideL7 5
+    400184: ventSideL7 6
+    400186: ventSideL8
+    400188: ventSideL8 1
+    400190: ventSideL8 2
+    400192: ventSideL8 3
+    400194: ventSideL8 4
+    400196: ventSideL8 5
+    400198: ventSideL8 6
+    2100000: lambert1
+    2300000: backPort
+    2300002: backPort1
+    2300004: backPort2
+    2300006: backPort3
+    2300008: bottomBase
+    2300010: bottomLogo
+    2300012: celingMountBase
+    2300014: celingMountBaseBase
+    2300016: celingMountBaseSupport
+    2300018: celingMountTube
+    2300020: lens 1
+    2300022: lensBase
+    2300024: lensBase1
+    2300026: lensFrame
+    2300028: lensFrameDetail
+    2300030: mainBase
+    2300032: topBase
+    2300034: ventLback
+    2300036: ventLback 1
+    2300038: ventLback 2
+    2300040: ventLback 3
+    2300042: ventLback 4
+    2300044: ventLback 5
+    2300046: ventLback 6
+    2300048: ventSideL
+    2300050: ventSideL 1
+    2300052: ventSideL 2
+    2300054: ventSideL 3
+    2300056: ventSideL 4
+    2300058: ventSideL 5
+    2300060: ventSideL 6
+    2300062: ventSideL1
+    2300064: ventSideL1 1
+    2300066: ventSideL1 2
+    2300068: ventSideL1 3
+    2300070: ventSideL1 4
+    2300072: ventSideL1 5
+    2300074: ventSideL1 6
+    2300076: ventSideL2
+    2300078: ventSideL2 1
+    2300080: ventSideL2 2
+    2300082: ventSideL2 3
+    2300084: ventSideL2 4
+    2300086: ventSideL2 5
+    2300088: ventSideL2 6
+    2300090: ventSideL3
+    2300092: ventSideL3 1
+    2300094: ventSideL3 2
+    2300096: ventSideL3 3
+    2300098: ventSideL3 4
+    2300100: ventSideL3 5
+    2300102: ventSideL3 6
+    2300104: ventSideL4
+    2300106: ventSideL4 1
+    2300108: ventSideL4 2
+    2300110: ventSideL4 3
+    2300112: ventSideL4 4
+    2300114: ventSideL4 5
+    2300116: ventSideL4 6
+    2300118: ventSideL5
+    2300120: ventSideL5 1
+    2300122: ventSideL5 2
+    2300124: ventSideL5 3
+    2300126: ventSideL5 4
+    2300128: ventSideL5 5
+    2300130: ventSideL5 6
+    2300132: ventSideL6
+    2300134: ventSideL6 1
+    2300136: ventSideL6 2
+    2300138: ventSideL6 3
+    2300140: ventSideL6 4
+    2300142: ventSideL6 5
+    2300144: ventSideL6 6
+    2300146: ventSideL7
+    2300148: ventSideL7 1
+    2300150: ventSideL7 2
+    2300152: ventSideL7 3
+    2300154: ventSideL7 4
+    2300156: ventSideL7 5
+    2300158: ventSideL7 6
+    2300160: ventSideL8
+    2300162: ventSideL8 1
+    2300164: ventSideL8 2
+    2300166: ventSideL8 3
+    2300168: ventSideL8 4
+    2300170: ventSideL8 5
+    2300172: ventSideL8 6
+    3300000: backPort
+    3300002: backPort1
+    3300004: backPort2
+    3300006: backPort3
+    3300008: bottomBase
+    3300010: bottomLogo
+    3300012: celingMountBase
+    3300014: celingMountBaseBase
+    3300016: celingMountBaseSupport
+    3300018: celingMountTube
+    3300020: lens 1
+    3300022: lensBase
+    3300024: lensBase1
+    3300026: lensFrame
+    3300028: lensFrameDetail
+    3300030: mainBase
+    3300032: topBase
+    3300034: ventLback
+    3300036: ventLback 1
+    3300038: ventLback 2
+    3300040: ventLback 3
+    3300042: ventLback 4
+    3300044: ventLback 5
+    3300046: ventLback 6
+    3300048: ventSideL
+    3300050: ventSideL 1
+    3300052: ventSideL 2
+    3300054: ventSideL 3
+    3300056: ventSideL 4
+    3300058: ventSideL 5
+    3300060: ventSideL 6
+    3300062: ventSideL1
+    3300064: ventSideL1 1
+    3300066: ventSideL1 2
+    3300068: ventSideL1 3
+    3300070: ventSideL1 4
+    3300072: ventSideL1 5
+    3300074: ventSideL1 6
+    3300076: ventSideL2
+    3300078: ventSideL2 1
+    3300080: ventSideL2 2
+    3300082: ventSideL2 3
+    3300084: ventSideL2 4
+    3300086: ventSideL2 5
+    3300088: ventSideL2 6
+    3300090: ventSideL3
+    3300092: ventSideL3 1
+    3300094: ventSideL3 2
+    3300096: ventSideL3 3
+    3300098: ventSideL3 4
+    3300100: ventSideL3 5
+    3300102: ventSideL3 6
+    3300104: ventSideL4
+    3300106: ventSideL4 1
+    3300108: ventSideL4 2
+    3300110: ventSideL4 3
+    3300112: ventSideL4 4
+    3300114: ventSideL4 5
+    3300116: ventSideL4 6
+    3300118: ventSideL5
+    3300120: ventSideL5 1
+    3300122: ventSideL5 2
+    3300124: ventSideL5 3
+    3300126: ventSideL5 4
+    3300128: ventSideL5 5
+    3300130: ventSideL5 6
+    3300132: ventSideL6
+    3300134: ventSideL6 1
+    3300136: ventSideL6 2
+    3300138: ventSideL6 3
+    3300140: ventSideL6 4
+    3300142: ventSideL6 5
+    3300144: ventSideL6 6
+    3300146: ventSideL7
+    3300148: ventSideL7 1
+    3300150: ventSideL7 2
+    3300152: ventSideL7 3
+    3300154: ventSideL7 4
+    3300156: ventSideL7 5
+    3300158: ventSideL7 6
+    3300160: ventSideL8
+    3300162: ventSideL8 1
+    3300164: ventSideL8 2
+    3300166: ventSideL8 3
+    3300168: ventSideL8 4
+    3300170: ventSideL8 5
+    3300172: ventSideL8 6
+    4300000: bottomBase
+    4300002: topBase
+    4300004: mainBase
+    4300006: bottomLogo
+    4300008: lensFrame
+    4300010: lensBase
+    4300012: lensBase1
+    4300014: lens
+    4300016: lensFrameDetail
+    4300018: ventSideL
+    4300020: ventSideL1
+    4300022: ventSideL2
+    4300024: ventSideL3
+    4300026: ventSideL4
+    4300028: ventSideL5
+    4300030: ventSideL6
+    4300032: ventSideL7
+    4300034: ventSideL8
+    4300036: ventLback
+    4300038: ventSideL
+    4300040: ventSideL1
+    4300042: ventSideL2
+    4300044: ventSideL3
+    4300046: ventSideL4
+    4300048: ventSideL5
+    4300050: ventSideL6
+    4300052: ventSideL7
+    4300054: ventSideL8
+    4300056: ventLback
+    4300058: ventSideL
+    4300060: ventSideL1
+    4300062: ventSideL2
+    4300064: ventSideL3
+    4300066: ventSideL4
+    4300068: ventSideL5
+    4300070: ventSideL6
+    4300072: ventSideL7
+    4300074: ventSideL8
+    4300076: ventLback
+    4300078: ventSideL
+    4300080: ventSideL1
+    4300082: ventSideL2
+    4300084: ventSideL3
+    4300086: ventSideL4
+    4300088: ventSideL5
+    4300090: ventSideL6
+    4300092: ventSideL7
+    4300094: ventSideL8
+    4300096: ventLback
+    4300098: ventSideL
+    4300100: ventSideL1
+    4300102: ventSideL2
+    4300104: ventSideL3
+    4300106: ventSideL4
+    4300108: ventSideL5
+    4300110: ventSideL6
+    4300112: ventSideL7
+    4300114: ventSideL8
+    4300116: ventLback
+    4300118: ventSideL
+    4300120: ventSideL1
+    4300122: ventSideL2
+    4300124: ventSideL3
+    4300126: ventSideL4
+    4300128: ventSideL5
+    4300130: ventSideL6
+    4300132: ventSideL7
+    4300134: ventSideL8
+    4300136: ventLback
+    4300138: ventSideL
+    4300140: ventSideL1
+    4300142: ventSideL2
+    4300144: ventSideL3
+    4300146: ventSideL4
+    4300148: ventSideL5
+    4300150: ventSideL6
+    4300152: ventSideL7
+    4300154: ventSideL8
+    4300156: ventLback
+    4300158: backPort3
+    4300160: backPort2
+    4300162: backPort1
+    4300164: backPort
+    4300166: celingMountBase
+    4300168: celingMountBaseSupport
+    4300170: celingMountBaseBase
+    4300172: celingMountTube
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
