@@ -94,3 +94,5 @@ XR/
 
 # Ignore SerializedUdonPrograms
 Assets/SerializedUdonPrograms
+Assets/01_mesh/damokres/武器密輸コンテナ/textures/crate.spp
+Assets/01_mesh/damokres/武器密輸コンテナ/textures/crate.spp.meta

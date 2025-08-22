@@ -23,6 +23,9 @@
     },
     "com.cyan.cyantrigger": {
       "version": "4.4.3"
+    },
+    "jp.lilxyzw.editortoolbox": {
+      "version": "1.9.1"
     }
   },
   "locked": {
@@ -69,6 +72,10 @@
       "dependencies": {
         "com.vrchat.worlds": "^3.1.x"
       }
+    },
+    "jp.lilxyzw.editortoolbox": {
+      "version": "1.9.1",
+      "dependencies": {}
     }
   }
 }

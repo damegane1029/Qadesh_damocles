@@ -1,0 +1,4 @@
+国旗の画像は以下のリポジトリのものを再配布させていただいています。
+
+Accurate country flags
+https://github.com/hampusborgos/country-flags

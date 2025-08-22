@@ -1,0 +1,7 @@
+Noto Sans JPはGoogleによってOpen Font Licenseで提供されています。
+
+Noto Sans JP
+https://fonts.google.com/specimen/Noto+Sans+JP
+
+Open Font License
+https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
