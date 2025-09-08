@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: WorldMegaphone
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: fb2d5dfe6fedbdd46a7446f0ce547ab5,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: a6e01907b6cef2f4c8571c6c13f6fc90,
     type: 2}
   udonAssembly: 
   assemblyError: 

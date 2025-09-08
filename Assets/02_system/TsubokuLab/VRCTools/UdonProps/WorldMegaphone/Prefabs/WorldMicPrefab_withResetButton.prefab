@@ -136,7 +136,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializedProgramAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 5bab0e26c4a558c45bdb0ad2fa32869f,
+      objectReference: {fileID: 11400000, guid: 6c67bd68193cbda4e8209b57bb7f52ac,
         type: 2}
     - target: {fileID: 4109442665552586476, guid: 7156c01ea54d52c429ee0751cb50cedc,
         type: 3}
@@ -208,7 +208,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializedProgramAsset
       value: 
-      objectReference: {fileID: 11400000, guid: a066ab8e8d22a324ab34ff5a57b32718,
+      objectReference: {fileID: 11400000, guid: a6e01907b6cef2f4c8571c6c13f6fc90,
         type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

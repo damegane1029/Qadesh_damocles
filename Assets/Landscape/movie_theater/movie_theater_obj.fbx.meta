@@ -4105,7 +4105,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["door","screen","curtain","emergency_exit"],"padding":[36,13,9,174],"unwrapper":[0,0,0,0]}'
+    - '#BAKERY{"meshName":["door","curtain","emergency_exit"],"padding":[36,9,174],"unwrapper":[0,0,0]}'
     clipAnimations: []
     isReadable: 1
   meshes:
