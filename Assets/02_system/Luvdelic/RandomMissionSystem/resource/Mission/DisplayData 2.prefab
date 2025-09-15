@@ -27,8 +27,8 @@ RectTransform:
   m_GameObject: {fileID: 1977572726349214684}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 255.00012}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 0.318, y: 0.18, z: 0.18}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4277252597650400182}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -133,7 +133,7 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 1537331099531462699}
   ImageCanvas: {fileID: 2917140384459400113}
   FadeInTime: 1
-  WaitingTime: 3
+  WaitingTime: 10
   FadeOutTime: 1
 --- !u!114 &1537331099531462699
 MonoBehaviour:

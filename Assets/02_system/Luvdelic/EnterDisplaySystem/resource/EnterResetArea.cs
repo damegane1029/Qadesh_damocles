@@ -9,12 +9,12 @@ using VRC.Udon;
 
 public class EnterResetArea : UdonSharpBehaviour
 {
-    [SerializeField] private EnterDisplayArea DisplayArea;
+    [SerializeField] private EnterDisplaySystem DisplaySystem;
 
     public override void OnPlayerTriggerEnter(VRCPlayerApi player)
     {
         if (player != Networking.LocalPlayer) return; //LocalPlayer以外はスルー
 
-        DisplayArea.SetSpawnEnable(true);
+        DisplaySystem.SetSpawnEnable(true);
     }
 }

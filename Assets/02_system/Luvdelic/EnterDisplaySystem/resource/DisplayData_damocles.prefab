@@ -133,8 +133,8 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 1537331099531462699}
   ImageCanvas: {fileID: 2917140384459400113}
-  FadeInTime: 1
-  WaitingTime: 3
+  FadeInTime: 2
+  WaitingTime: 4
   FadeOutTime: 1
 --- !u!114 &1537331099531462699
 MonoBehaviour:
@@ -172,7 +172,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 73308b22b8e0e314c8e0de6fae507c36, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 32157d7304368394c9ab665c766c52ca, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
