@@ -31,7 +31,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["wrr","wrl","wfr","wfl","trunk_door_right","trunk_door_left","sliding_door","glass.007","glass","dfr_glass","dfr","dfl_glass","dfl","body"],"padding":[126,126,126,126,91,88,69,256,95,217,76,217,77,17],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+    - '#BAKERY{"meshName":["dfr","wfr","trunk_door_left","glass.007","wrl","wrr","wfl","trunk_door_right","sliding_door","glass","dfr_glass","dfl_glass","dfl","body"],"padding":[76,126,88,256,126,126,126,91,69,95,217,217,77,17],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

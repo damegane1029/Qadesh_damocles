@@ -118,7 +118,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["SM_PalleteTruck_LOD0"],"padding":[75],"unwrapper":[0]}'
+    - '#BAKERY{"meshName":["SM_PalleteTruck_LOD0"],"padding":[64],"unwrapper":[0]}'
     clipAnimations: []
     isReadable: 1
   meshes:

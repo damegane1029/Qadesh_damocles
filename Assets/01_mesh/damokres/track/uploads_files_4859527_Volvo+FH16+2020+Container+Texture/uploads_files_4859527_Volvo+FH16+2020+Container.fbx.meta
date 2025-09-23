@@ -31,7 +31,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["Wheel02_LP1","Wheel02_LP","Wheel01_LP1","Wheel01_LP","Semi_Trailer_Container:Wheel_03","Semi_Trailer_Container:Wheel_02","Semi_Trailer_Container:Wheel_01","Semi_Trailer_Container:Trailer","Body_LP"],"padding":[60,60,79,79,61,61,61,7,11],"unwrapper":[0,0,0,0,0,0,0,0,0]}'
+    - '#BAKERY{"meshName":["Body_LP","Semi_Trailer_Container:Wheel_01","Wheel02_LP1","Wheel02_LP","Wheel01_LP1","Wheel01_LP","Semi_Trailer_Container:Wheel_03","Semi_Trailer_Container:Wheel_02","Semi_Trailer_Container:Trailer"],"padding":[11,61,60,60,79,79,61,61,7],"unwrapper":[0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

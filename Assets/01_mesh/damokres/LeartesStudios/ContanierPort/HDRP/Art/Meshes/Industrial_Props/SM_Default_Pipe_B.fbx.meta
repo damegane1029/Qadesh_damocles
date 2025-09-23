@@ -55,7 +55,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["SM_Default_Pipe_B"],"padding":[102],"unwrapper":[0]}'
+    - '#BAKERY{"meshName":["SM_Default_Pipe_B"],"padding":[76],"unwrapper":[0]}'
     clipAnimations: []
     isReadable: 1
   meshes:

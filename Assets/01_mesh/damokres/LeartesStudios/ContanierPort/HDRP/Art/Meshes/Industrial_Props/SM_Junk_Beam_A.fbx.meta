@@ -52,7 +52,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["SM_Junk_Beam_A"],"padding":[214],"unwrapper":[0]}'
+    - '#BAKERY{"meshName":["SM_Junk_Beam_A"],"padding":[160],"unwrapper":[0]}'
     clipAnimations: []
     isReadable: 1
   meshes:

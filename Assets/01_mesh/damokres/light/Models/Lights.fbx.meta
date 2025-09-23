@@ -31,7 +31,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["SM_ProjectorLampL","SM_ProjectorStand1","SM_ProjectorStand2","SM_ProjectorLampHolder","SM_ProjectorLampR"],"padding":[253,145,256,256,253],"unwrapper":[0,0,0,0,0]}'
+    - '#BAKERY{"meshName":["SM_ProjectorLampHolder","SM_ProjectorLampR","SM_ProjectorStand1","SM_ProjectorStand2","SM_ProjectorLampL"],"padding":[256,253,145,256,253],"unwrapper":[0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 1
   meshes:

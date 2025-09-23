@@ -41,7 +41,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["Kakuheki_door","Kakuheki","Kakuheki_door.003","Kakuheki_door.002","Kakuheki_reverse"],"padding":[60,7,60,60,7],"unwrapper":[0,0,0,0,0]}'
+    - '#BAKERY{"meshName":["Kakuheki_door.003","Kakuheki_door.002","Kakuheki_reverse"],"padding":[60,60,7],"unwrapper":[0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:
