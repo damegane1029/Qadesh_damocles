@@ -130,6 +130,7 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 5171378458212567486}
   System: {fileID: 2827871212352316998}
+  Manager: {fileID: 0}
 --- !u!114 &5171378458212567486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -471,6 +472,7 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 6015040033460103518}
   System: {fileID: 2827871212352316998}
+  Manager: {fileID: 0}
 --- !u!114 &6015040033460103518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1028,6 +1030,10 @@ MonoBehaviour:
   - {fileID: 4695997216928958376, guid: 32aaef927feb9c34eab9e6a82786310f, type: 3}
   - {fileID: 4695997216928958376, guid: 3fc2472b96dc0ac408742089d8121894, type: 3}
   - {fileID: 4695997216928958376, guid: 5bbe31308c17d5a4b8736ec4919d6f12, type: 3}
+  ReFadeInTime: 0.2
+  ReWaitingTime: 10
+  ReFadeOutTime: 1
+  PressTime: 2
 --- !u!114 &562750546176301909
 MonoBehaviour:
   m_ObjectHideFlags: 0

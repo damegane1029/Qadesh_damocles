@@ -15,6 +15,13 @@ public class EnterDisplay : UdonSharpBehaviour
     [SerializeField, Tooltip("フェードアウト時間")] private float FadeOutTime = 1.0f;
     private float time = 0.0f;
 
+    public void SetTime(float fadein, float waiting, float fadeout)
+    {
+        FadeInTime = fadein;
+        WaitingTime = waiting;
+        FadeOutTime = fadeout;
+    }
+
     void OnEnable()
     {
         time = 0.0f;

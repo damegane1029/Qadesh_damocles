@@ -1,0 +1,26 @@
+・使用方法
+パッケージをインポートし、
+Luvdelic/RandomMissionSystem/RandomMissionManager(ミッション登録).prefab
+をシーン上に配置する。
+
+・プレハブの内部構造
+RandomMissionManager(ミッション登録): ミッション登録とデータ指定などメイン情報を登録します。
+-PlayerMission: プレイヤー複製用。触る部分はなし。
+-RandomMissionSystem: 鳴らすサウンドを登録する。
+ -MissionSTAFFSwitch(複製可能): スタッフがデバッグ表示で頭上に全員のミッションを表示する
+ -MissionSwitch(複製可能): ミッションを発行する
+ -MissionResetArea(複製可能): ミッションをリセットする
+
+・表示UIの内部構造
+DisplayData: 表示されるUIのprefab。内部でUI画像やフェードイン・待機・フェードアウト秒数を指定します。
+
+・データの登録
+RandomMissionManager(ミッション登録)でミッションの各情報を登録できます。
+
+・表示するUIの差し替え
+表示されるUIの差し替えはDisplayDataの内部を参照ください。ミッションを増やしたい場合はDisplayDataを複製してRandomMissionManagerにご指定下さい。
+
+・動作仕様
+•ミッション抽選時(再抽選も含む)と、ミッション確認表示時が可能。MissionSwitchをインタラクトするかジャンプ長押し（確認時は単押し）でもアクセス可能。
+ミッション表示時にジャンプボタン入力でUI表示を閉じる。
+

@@ -133,7 +133,7 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 1537331099531462699}
   ImageCanvas: {fileID: 2917140384459400113}
-  FadeInTime: 1
+  FadeInTime: 3
   WaitingTime: 5
   FadeOutTime: 2
 --- !u!114 &1537331099531462699

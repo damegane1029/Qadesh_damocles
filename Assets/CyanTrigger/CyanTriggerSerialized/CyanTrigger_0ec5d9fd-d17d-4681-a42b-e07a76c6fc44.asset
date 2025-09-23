@@ -12,61 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62eab678c02d50042baa35d04cd0db48, type: 3}
   m_Name: CyanTrigger_0ec5d9fd-d17d-4681-a42b-e07a76c6fc44
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: dc380a27cc299124d81e10ce3a481768,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 1dc2f680f3bff5642b67a652e987a3f2,
     type: 2}
   udonAssembly: ".data_start\r\n  .export __CyanTrigger_ProgramName_SystemString\r\n 
-    .export __27_ref_UnityEngineTransform\r\n  __CyanTrigger_ProgramName_SystemString:
-    %SystemString, null\r\n  __CyanTrigger_ProgramHash_SystemString: %SystemString,
-    null\r\n  __0_ra_SystemUInt32: %SystemUInt32, null\r\n  __1_ea_SystemUInt32:
-    %SystemUInt32, null\r\n  _this_gameobject: %UnityEngineGameObject, this\r\n 
-    _this_local_player: %VRCSDKBaseVRCPlayerApi, null\r\n  onPlayerTriggerEnterPlayer:
-    %VRCSDKBaseVRCPlayerApi, null\r\n  __ag_0_0_SystemBoolean: %SystemBoolean, null\r\n 
-    __ag_0_1_SystemString: %SystemString, null\r\n  __ag_0_2_SystemBoolean: %SystemBoolean,
-    null\r\n  __ag_0_3_SystemUInt32: %SystemUInt32, null\r\n  __ag_0_4_SystemUInt32:
-    %SystemUInt32, null\r\n  __ag_0_5_SystemBoolean: %SystemBoolean, null\r\n  __ag_0_6___jump_return_SystemUInt32:
-    %SystemUInt32, null\r\n  __ag_0_7_SystemString: %SystemString, null\r\n  __ag_1_0_UnityEngineVector3:
-    %UnityEngineVector3, null\r\n  __ag_1_1_UnityEngineQuaternion: %UnityEngineQuaternion,
-    null\r\n  __20_lp_init_SystemBoolean_ct_intern: %SystemBoolean, null\r\n  __ag_1_2_SystemBoolean:
-    %SystemBoolean, null\r\n  __ag_1_3_UnityEngineTransform: %UnityEngineTransform,
-    null\r\n  __23___jump_return_1_SystemUInt32: %SystemUInt32, null\r\n  __24___jump_return_2_SystemUInt32:
-    %SystemUInt32, null\r\n  __25_const_SystemUInt32: %SystemUInt32, null\r\n  __26___jump_return_3_SystemUInt32:
-    %SystemUInt32, null\r\n  __27_ref_UnityEngineTransform: %UnityEngineTransform,
-    null\r\n  __28___jump_return_4_SystemUInt32: %SystemUInt32, null\r\n.data_end\r\n\n.code_start\r\n 
-    .export __ag_0_0\r\n  __ag_0_0:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
-    __ag_0_0_SystemBoolean\r\n    PUSH, __ag_0_2_SystemBoolean\r\n    COPY\r\n   
-    PUSH, onPlayerTriggerEnterPlayer\r\n    PUSH, __ag_0_2_SystemBoolean\r\n    EXTERN,
-    \"VRCSDKBaseVRCPlayerApi.__get_isLocal__SystemBoolean\"\r\n    PUSH, __ag_0_2_SystemBoolean\r\n   
-    JUMP_IF_FALSE, 0x000000A4\r\n    PUSH, __ag_0_3_SystemUInt32\r\n    PUSH, __ag_0_4_SystemUInt32\r\n   
-    PUSH, __ag_0_5_SystemBoolean\r\n    EXTERN, \"SystemUInt32.__op_Inequality__SystemUInt32_SystemUInt32__SystemBoolean\"\r\n   
-    PUSH, __ag_0_5_SystemBoolean\r\n    JUMP_IF_FALSE, 0x0000008C\r\n    PUSH, __ag_0_6___jump_return_SystemUInt32\r\n   
-    JUMP_INDIRECT, __ag_0_3_SystemUInt32\r\n    JUMP, 0x000000A4\r\n    PUSH, __ag_0_7_SystemString\r\n   
-    PUSH, _this_gameobject\r\n    EXTERN, \"UnityEngineDebug.__LogError__SystemObject_UnityEngineObject__SystemVoid\"\r\n   
-    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
-    .export __ag_1_0\r\n  __ag_1_0:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
-    __20_lp_init_SystemBoolean_ct_intern\r\n    JUMP_IF_FALSE, 0x000000F4\r\n   
-    PUSH, __ag_1_2_SystemBoolean\r\n    PUSH, __20_lp_init_SystemBoolean_ct_intern\r\n   
-    COPY\r\n    PUSH, _this_local_player\r\n    EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n   
-    PUSH, __ag_1_3_UnityEngineTransform\r\n    PUSH, __ag_1_0_UnityEngineVector3\r\n   
-    EXTERN, \"UnityEngineTransform.__get_position__UnityEngineVector3\"\r\n    PUSH,
-    __ag_1_3_UnityEngineTransform\r\n    PUSH, __ag_1_1_UnityEngineQuaternion\r\n   
-    EXTERN, \"UnityEngineTransform.__get_rotation__UnityEngineQuaternion\"\r\n   
-    PUSH, _this_local_player\r\n    PUSH, __ag_1_0_UnityEngineVector3\r\n    PUSH,
-    __ag_1_1_UnityEngineQuaternion\r\n    EXTERN, \"VRCSDKBaseVRCPlayerApi.__TeleportTo__UnityEngineVector3_UnityEngineQuaternion__SystemVoid\"\r\n   
-    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
-    .export _onPlayerTriggerEnter\r\n  _onPlayerTriggerEnter:\r\n    PUSH, __1_ea_SystemUInt32\r\n   
-    PUSH, __23___jump_return_1_SystemUInt32\r\n    PUSH, __ag_0_3_SystemUInt32\r\n   
-    COPY\r\n    PUSH, __24___jump_return_2_SystemUInt32\r\n    JUMP, 0x00000008\r\n   
-    PUSH, __25_const_SystemUInt32\r\n    PUSH, __ag_0_3_SystemUInt32\r\n    COPY\r\n   
-    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n 
-    __intern_event_0_actions:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __26___jump_return_3_SystemUInt32\r\n   
-    JUMP, 0x000001E0\r\n    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT,
-    __0_ra_SystemUInt32\r\n\r\n  .export __intern_event_0_debug_execute\r\n  __intern_event_0_debug_execute:\r\n   
-    PUSH, __1_ea_SystemUInt32\r\n    PUSH, __27_ref_UnityEngineTransform\r\n    PUSH,
-    __ag_1_3_UnityEngineTransform\r\n    COPY\r\n    PUSH, __28___jump_return_4_SystemUInt32\r\n   
-    JUMP, 0x000000C0\r\n    PUSH, __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT,
-    __0_ra_SystemUInt32\r\n\r\n.code_end\r\n"
+    .export __10_ref_UnityEngineGameObject\r\n  .export __11_ref_SystemBoolean\r\n 
+    .export __12_ref_UnityEngineGameObject\r\n  .export __13_ref_SystemBoolean\r\n 
+    __CyanTrigger_ProgramName_SystemString: %SystemString, null\r\n  __CyanTrigger_ProgramHash_SystemString:
+    %SystemString, null\r\n  __0_ra_SystemUInt32: %SystemUInt32, null\r\n  __1_ea_SystemUInt32:
+    %SystemUInt32, null\r\n  __9___jump_return_0_SystemUInt32: %SystemUInt32, null\r\n 
+    __10_ref_UnityEngineGameObject: %UnityEngineGameObject, null\r\n  __11_ref_SystemBoolean:
+    %SystemBoolean, null\r\n  __12_ref_UnityEngineGameObject: %UnityEngineGameObject,
+    null\r\n  __13_ref_SystemBoolean: %SystemBoolean, null\r\n.data_end\r\n\n.code_start\r\n 
+    .export _interact\r\n  _interact:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
+    __9___jump_return_0_SystemUInt32\r\n    JUMP, 0x00000034\r\n    PUSH, __0_ra_SystemUInt32\r\n   
+    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n  .export __intern_event_0_debug_execute\r\n 
+    __intern_event_0_debug_execute:\r\n    PUSH, __1_ea_SystemUInt32\r\n    PUSH,
+    __10_ref_UnityEngineGameObject\r\n    PUSH, __11_ref_SystemBoolean\r\n    EXTERN,
+    \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n    PUSH,
+    __12_ref_UnityEngineGameObject\r\n    PUSH, __13_ref_SystemBoolean\r\n    EXTERN,
+    \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n    PUSH,
+    __0_ra_SystemUInt32\r\n    COPY\r\n    JUMP_INDIRECT, __0_ra_SystemUInt32\r\n\r\n.code_end\r\n"
   assemblyError: 
-  triggerHash: 212AA8E272E303803C2A867242CDB2AE
+  triggerHash: 1AA836DB5766D04992190CC549B6725F
   shouldBeNetworked: 0
   warningMessages: []
   errorMessages: []
@@ -78,11 +45,11 @@ MonoBehaviour:
     programName: 
     events:
     - name: _Unnamed
-      eventId: 46c55bcf-86b6-4abc-85b7-c2449b4b786b
+      eventId: a0d6ae92-25d2-445a-b57e-1a9582141aca
       eventInstance:
         actionType:
-          directEvent: 
-          guid: 640abae3-b9b9-4bed-8556-cb87be5c4bca
+          directEvent: Event_Interact
+          guid: 
         inputs: []
         multiInput: []
         expanded: 0
@@ -90,8 +57,8 @@ MonoBehaviour:
           comment: 
       actionInstances:
       - actionType:
-          directEvent: 
-          guid: b54c86e7-4ffc-4c82-8f04-f216c7dc7a2f
+          directEvent: UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid
+          guid: 
         inputs:
         - isVariable: 0
           name: 
@@ -99,7 +66,45 @@ MonoBehaviour:
           data:
             objEncoded: 
             unityObjects: []
-        multiInput: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARgAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4ALAAgAG0AcwBjAG8AcgBsAGkAYgAAAAAALAAF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        expanded: 0
+        comment:
+          comment: 
+      - actionType:
+          directEvent: UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid
+          guid: 
+        inputs:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: Ai8AAAAAARgAAABTAHkAcwB0AGUAbQAuAEIAbwBvAGwAZQBhAG4ALAAgAG0AcwBjAG8AcgBsAGkAYgAAAAAALAEF
+            unityObjects: []
+        multiInput:
+        - isVariable: 0
+          name: 
+          variableID: 
+          data:
+            objEncoded: 
+            unityObjects: []
         expanded: 0
         comment:
           comment: 
@@ -119,13 +124,35 @@ MonoBehaviour:
     ignoreEventWarnings: 0
   publicVariableReferences:
     actionDataIndices:
-    - symbolName: __27_ref_UnityEngineTransform
+    - symbolName: __10_ref_UnityEngineGameObject
       type:
-        typeDef: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+        typeDef: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       eventIndex: 0
       actionIndex: 0
       variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __11_ref_SystemBoolean
+      type:
+        typeDef: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 0
+      variableIndex: 1
+      multiVariableIndex: -1
+    - symbolName: __12_ref_UnityEngineGameObject
+      type:
+        typeDef: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      eventIndex: 0
+      actionIndex: 1
+      variableIndex: 0
+      multiVariableIndex: 0
+    - symbolName: __13_ref_SystemBoolean
+      type:
+        typeDef: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      eventIndex: 0
+      actionIndex: 1
+      variableIndex: 1
       multiVariableIndex: -1
     userVariableNames: []
     userVariableTypes: []

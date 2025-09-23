@@ -37,7 +37,7 @@ public class PlayerMission : UdonSharpBehaviour
         }
     }
 
-    public void MissionActivate()
+    public bool MissionActivate()
     {
         // Missionが選択されていない
         if(PlayerMissionNumber == -1)
@@ -57,10 +57,12 @@ public class PlayerMission : UdonSharpBehaviour
                 {
                     // ミッション決定
                     PlayerMissionNumber = i;
-                    break;
+                    return true;
                 }
             }
+            return false;
         }
+        return false;
     }
 
     public void MissionReset()

@@ -11,6 +11,7 @@ public class RandomMissionSwitch : UdonSharpBehaviour
 {
 
     [SerializeField] private RandomMissionSystem System;
+    [SerializeField] private RandomMissionManager Manager;
     private PlayerMission PlayerData;
 
     public override void Interact()
@@ -33,8 +34,17 @@ public class RandomMissionSwitch : UdonSharpBehaviour
 
         if(PlayerData)
         {
-            PlayerData.MissionActivate();
-            System.SpawnDisplay(PlayerData);
+            bool successLottery = PlayerData.MissionActivate();
+            GameObject instance = System.SpawnDisplay(PlayerData);
+            if (!successLottery)
+            {
+                if (Utilities.IsValid(instance))
+                {
+                    EnterDisplay display = instance.GetComponent<EnterDisplay>();
+                    display.SetTime(Manager.ReturnReFadeInTime(), Manager.ReturnReWaitingTime(), Manager.ReturnReFadeOutTime());
+                }
+            }
+
         }
     }
 }

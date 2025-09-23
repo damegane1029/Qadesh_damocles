@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: LurasSwitch Udon C# Program Asset
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 3396f15d76e94724a935763d0114e6b0,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 689afdf54113e384f8999c5e29c6bbba,
     type: 2}
   udonAssembly: 
   assemblyError: 

@@ -12,6 +12,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.tp.jp.light-probe-generator": {
+      "version": "file:com.tp.jp.light-probe-generator",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.ai.navigation": {
       "version": "1.1.5",
       "depth": 1,
@@ -33,7 +39,7 @@
     },
     "com.unity.cinemachine": {
       "version": "2.9.7",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.31"
@@ -92,7 +98,7 @@
     },
     "com.unity.inputsystem": {
       "version": "1.7.0",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.uielements": "1.0.0"
@@ -141,8 +147,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.6",
-      "depth": 1,
+      "version": "3.0.9",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0"
@@ -244,14 +250,14 @@
         "com.unity.postprocessing": "3.1.1"
       }
     },
-    "jp.lilxyzw.liltoon": {
-      "version": "file:jp.lilxyzw.liltoon",
+    "jp.lilxyzw.editortoolbox": {
+      "version": "file:jp.lilxyzw.editortoolbox",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
     },
-    "net.ureishi.qvpen": {
-      "version": "file:net.ureishi.qvpen",
+    "jp.lilxyzw.liltoon": {
+      "version": "file:jp.lilxyzw.liltoon",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
